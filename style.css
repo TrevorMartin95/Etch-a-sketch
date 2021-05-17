@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    margin: 0;
+    font-size: larger;
+    font-weight: bold;
+    padding: 25px 0px 25px 0px;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    background-color: #f11010;
+}
+
+.grid {
+    display: grid;
+    margin: auto;
+    width: 450px;
+    height: 450px;
+    margin-top: 100px;
+    border: 20px solid #f11010;
+    border-bottom: 50px solid #f11010;
+    grid-template-columns: 16;
+    grid-template-rows: 16;
+}
+
+.buttons {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.btn {
+    background-color: #bbbcbd;
+    padding:0.5em 0.75em;
+    border-radius: 6px;
+    font-size: medium;
+    text-decoration: none;
+    border:0.5em solid #FFFFFF;
+    box-sizing: border-box;
+}
